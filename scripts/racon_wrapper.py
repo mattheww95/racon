@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+""" 
+TODO as racon has a preprocess script available for illumina data already, have the arguments detect if two
+files are input and automatically have it pre-process the reads
+"""
+
 from __future__ import print_function
 import os, sys, time, shutil, argparse, subprocess
 
